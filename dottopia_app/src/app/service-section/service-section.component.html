@@ -1,0 +1,111 @@
+<section class="container" id="sevice_section">
+  <div class="flex_col">
+    <div class="header_box">
+      <h1>Experts in all aspect of the Digital Marketing.</h1>
+    </div>
+    <div class="text_box">
+      <p>
+        We are passionate about creating brands, bringing out their best &
+        uttermost results, performing all marketing services and forming
+        creative campaigns to enable smooth, stable and successful relationships
+        between businesses and customers.
+      </p>
+    </div>
+  </div>
+  <div class="nav_services">
+    <div class="circle_box">
+      <span
+        (click)="toggleActive1()"
+        [ngClass]="{ activeCr1: active1 }"
+        class="small_ellipse"
+      ></span>
+    </div>
+    <div class="circle_box">
+      <span
+        (click)="toggleActive2()"
+        [ngClass]="{ activeCr2: active2 }"
+        class="small_ellipse"
+      ></span>
+    </div>
+    <div class="circle_box">
+      <span
+        (click)="toggleActive3()"
+        [ngClass]="{ activeCr3: active3 }"
+        class="small_ellipse"
+      ></span>
+    </div>
+    <div class="circle_box">
+      <span
+        (click)="toggleActive4()"
+        [ngClass]="{ activeCr4: active4 }"
+        class="small_ellipse"
+      ></span>
+    </div>
+    <div class="nav_small_bar"></div>
+  </div>
+  <div class="services">
+    <div id="first_service" *ngIf="active1">
+      <div class="number_circle">
+        <img src="../../assets/Ellipse 120.png" />
+        <p>1</p>
+      </div>
+      <h2>Social Media Managment</h2>
+      <p class="text">
+        Your social media cannot be in safer or more creative hands.A brand is
+        objective becomes Dottopia is Persistent goal that knows no rest until
+        completion.
+      </p>
+      <button>
+        View Work <span><img src="../../assets/Vector 2.1.png" /></span>
+      </button>
+    </div>
+    <div id="second_service" *ngIf="active2">
+      <div class="number_circle">
+        <img src="../../assets/Ellipse 120.png" />
+        <p>2</p>
+      </div>
+      <h2>Lorem ipsum dolor sit amet consectetur</h2>
+      <p class="text">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas,
+        animi consequuntur totam quaerat obcaecati eum dolorem corporis nisi aut
+        tempore itaque odio omnis voluptatem sit ex hic dignissimos nulla
+        dolorum.
+      </p>
+      <button>
+        View Work <span><img src="../../assets/Vector 2.1.png" /></span>
+      </button>
+    </div>
+    <div id="third_service" *ngIf="active3">
+      <div class="number_circle">
+        <img src="../../assets/Ellipse 120.png" />
+        <p>3</p>
+      </div>
+      <h2>Lorem ipsum dolor sit amet consectetur</h2>
+      <p class="text">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas,
+        animi consequuntur totam quaerat obcaecati eum dolorem corporis nisi aut
+        tempore itaque odio omnis voluptatem sit ex hic dignissimos nulla
+        dolorum.
+      </p>
+      <button>
+        View Work <span><img src="../../assets/Vector 2.1.png" /></span>
+      </button>
+    </div>
+    <div id="forth_service" *ngIf="active4">
+      <div class="number_circle">
+        <img src="../../assets/Ellipse 120.png" />
+        <p>4</p>
+      </div>
+      <h2>Lorem ipsum dolor sit amet consectetur</h2>
+      <p class="text">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas,
+        animi consequuntur totam quaerat obcaecati eum dolorem corporis nisi aut
+        tempore itaque odio omnis voluptatem sit ex hic dignissimos nulla
+        dolorum.
+      </p>
+      <button>
+        View Work <span><img src="../../assets/Vector 2.1.png" /></span>
+      </button>
+    </div>
+  </div>
+</section>

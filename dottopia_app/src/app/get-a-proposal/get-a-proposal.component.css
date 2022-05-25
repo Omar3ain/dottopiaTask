@@ -1,0 +1,63 @@
+#get_proposal {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  min-height: 600px;
+}
+
+.text_box {
+  width: 554px;
+  height: 244px;
+  left: 100px;
+  top: 265px;
+}
+.text_box h1 {
+  font-family: "Fauna One";
+  font-weight: 400;
+  font-size: 72px;
+  line-height: 100%;
+}
+.text_box p {
+  margin-top: 15px;
+  font-family: "Arial";
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 120%;
+}
+.text_box button {
+  margin-top: 30px;
+  width: 152px;
+  height: 56px;
+  background: #ffcb0c;
+  border-radius: 5px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 21px;
+  color: #17161a;
+  border: none;
+  cursor: pointer;
+}
+.img_box {
+  width: 450px;
+  height: 500px;
+}
+.img_box :nth-child(1) {
+  position: relative;
+  right: 120px;
+  top: 140px;
+  z-index: -2;
+}
+.art_work :nth-child(2) {
+  position: absolute;
+  right: 818px;
+  top: 443px;
+  z-index: -1;
+}
+.art_work :nth-child(3) {
+  position: absolute;
+  right: 272px;
+  top: 299px;
+  z-index: -1;
+}
