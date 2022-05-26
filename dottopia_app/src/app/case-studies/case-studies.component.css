@@ -1,0 +1,182 @@
+/* styles of section one */
+
+.section_1 {
+  width: 100%;
+  height: 280px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.section_1 .text_box {
+  width: 666px;
+  height: 97px;
+}
+.section_1 .text_box h1 {
+  font-family: "Fauna One";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 54px;
+  line-height: 96.52%;
+  text-align: center;
+  text-transform: capitalize;
+  color: #000000;
+}
+.section_1 .brands {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.section_1 .brands img {
+  margin-left: 80px;
+}
+
+/* styles of section two*/
+
+.section_2 {
+  width: 100%;
+  height: 928px;
+  background: #f9f9f9;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.section_2 .text_box {
+  height: 180px;
+  width: 527px;
+}
+.section_2 .text_box h1 {
+  font-family: "Fauna One";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 72px;
+  line-height: 115%;
+  text-transform: capitalize;
+  color: #000000;
+}
+.section_2 .text_box p {
+  font-family: "Arial";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 120%;
+  text-align: center;
+  text-transform: capitalize;
+  color: #000000;
+}
+.section_2 .stories {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+.section_2 .stories .first_story,
+.second_story,
+.third_story {
+  margin-right: 23px;
+}
+.section_2 .stories .first_story,
+.section_2 .stories .third_story {
+  background: url("../../assets/st__image__024.png");
+  width: 247px;
+  height: 521px;
+  background-size: auto;
+  background-position: center;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 3px -8px 100px 30px rgba(0, 0, 0, 0.59) inset;
+  cursor: pointer;
+}
+.section_2 .stories .second_story {
+  background: url("../../assets/st__image__024.png");
+  width: 840px;
+  height: 521px;
+  background-size: auto;
+  background-position: center;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 3px -8px 100px 30px rgba(0, 0, 0, 0.59) inset;
+  cursor: pointer;
+}
+.section_2 .stories .first_story .text_box,
+.section_2 .stories .third_story .text_box {
+  width: 167px;
+  height: 60px;
+  position: relative;
+  top: 117px;
+  right: 15px;
+}
+.section_2 .stories .second_story .text_box {
+  width: 220px;
+  height: 60px;
+  position: relative;
+  top: 147px;
+  right: 266px;
+}
+.section_2 .stories .first_story h6,
+.section_2 .stories .second_story h6,
+.section_2 .stories .third_story h6 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 22px;
+  line-height: 30px;
+  letter-spacing: -0.01em;
+  color: #ffffff;
+}
+.section_2 .stories .first_story p,
+.section_2 .stories .second_story p,
+.section_2 .stories .third_story p {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  letter-spacing: -0.01em;
+  color: #ffffff;
+}
+.section_2 .stories .rotate {
+  transform: rotate(180deg);
+}
+.section_2 .stories .margin_left {
+  margin-left: 18px;
+  cursor: pointer;
+}
+.section_2 .stories .margin_right {
+  margin-right: 41px;
+  cursor: pointer;
+}
+.section_2 .nav_small_bar {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 60px;
+}
+.section_2 .nav_small_bar .line {
+  margin: 0 11px;
+  width: 81px;
+  height: 0px;
+  border: 2px solid #000000;
+  border-radius: 10px;
+}
+.section_2 .nav_small_bar p {
+  font-family: "Arial";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 28px;
+  letter-spacing: -0.01em;
+  color: #000000;
+  cursor: pointer;
+}

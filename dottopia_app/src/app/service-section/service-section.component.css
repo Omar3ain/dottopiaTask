@@ -9,6 +9,7 @@
   top: 100px;
   background: #3a3b3a;
   padding: 150px;
+  margin-bottom: 100px;
 }
 .container {
   display: grid;
@@ -87,6 +88,7 @@
 }
 .small_ellipse:hover {
   background: #ffcb0c;
+  transition: 200ms;
 }
 
 .activeCr1 {
@@ -115,6 +117,10 @@
 .services {
   position: relative;
   bottom: 45px;
+}
+.services #first_service:hover {
+  opacity: 1;
+  transition: all 200ms ease 0s;
 }
 .services h2 {
   width: 511px;
@@ -164,4 +170,296 @@
   position: relative;
   top: 3px;
   right: 12px;
+  filter: invert(1);
+}
+#first_service,
+#second_service,
+#third_service,
+#forth_service {
+  animation-name: change-opacity;
+  animation-duration: 1s;
+
+  animation-iteration-count: 1;
+}
+
+.section_2 {
+  height: 665px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+.right_half {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: flex-start;
+  align-content: flex-end;
+}
+.right_half .header_box {
+  width: 715px;
+  height: 215px;
+  margin-bottom: 25px;
+}
+.right_half .header_box h1 {
+  font-family: "Fauna One";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 54px;
+  line-height: 115%;
+  text-transform: capitalize;
+  color: #000000;
+}
+.right_half .text_box {
+  width: 702px;
+  height: 118px;
+  margin-bottom: 25px;
+}
+.right_half .text_box p {
+  font-family: "Arial";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 120%;
+  text-transform: capitalize;
+  color: #000000;
+}
+.right_half button {
+  width: 174px;
+  height: 62.14px;
+  background: #ffcb0c;
+  border-radius: 5px;
+  border: none;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 21px;
+  color: #17161a;
+  cursor: pointer;
+}
+.section_3 {
+  width: 100%;
+  height: 581px;
+  background: #f9f9f9;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  position: relative;
+}
+
+.section_3 img {
+  position: absolute;
+  top: 110px;
+  left: 65px;
+  mix-blend-mode: multiply;
+}
+.section_3 .left_half .header_box {
+  width: 499px;
+  height: 128px;
+  margin-bottom: 10px;
+}
+.section_3 .left_half .header_box h1 {
+  font-family: "Fauna One";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 54px;
+  line-height: 64px;
+  color: #18191f;
+}
+.section_3 .left_half p {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 32px;
+  color: #18191f;
+}
+.section_3 .left_half button {
+  width: 152px;
+  height: 56px;
+  background: #ffcb0c;
+  border-radius: 5px;
+  border: none;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 21px;
+  color: #17161a;
+  margin-top: 20px;
+  cursor: pointer;
+}
+.right_half .grid {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+.right_half .grid .text_box {
+  width: 284px;
+  height: 190px;
+  margin-left: 100px;
+}
+.right_half .grid .text_box p {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 32px;
+  letter-spacing: -0.01em;
+  color: #1a1a1a;
+}
+.right_half .grid .text_box h6 {
+  font-family: "Tomorrow";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16.8px;
+  line-height: 22px;
+  display: flex;
+  align-items: center;
+  color: #1a1a1a;
+  position: relative;
+  top: 23px;
+}
+.right_half .grid .text_box .job_title {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  letter-spacing: -0.01em;
+  color: #1a1a1a;
+  opacity: 0.75;
+}
+.section_4 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  height: 231px;
+  background: #ffcb0c;
+}
+.section_4 .text_box {
+  width: 882px;
+  height: 168px;
+}
+.section_4 .text_box h1 {
+  font-family: "Fauna One";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 56px;
+  letter-spacing: -0.01em;
+  color: #000000;
+}
+.section_4 .text_box p {
+  font-family: "Arial";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 56px;
+  letter-spacing: -0.01em;
+  color: #000000;
+  position: relative;
+  bottom: 20px;
+}
+.section_4 button {
+  width: 167px;
+  height: 50px;
+  background: #363535;
+  border-radius: 4px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 22px;
+  text-align: center;
+  color: #ffffff;
+  cursor: pointer;
+  border: none;
+}
+.section_4 button span {
+  position: relative;
+  top: 3px;
+  left: 7px;
+}
+
+.section_5 {
+  width: 100%;
+  height: 640px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  background: #f9f9f9;
+}
+.section_5 .left_half .text_box {
+  height: 192px;
+  width: 565px;
+}
+.section_5 .left_half .text_box h1 {
+  font-family: "Fauna One";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 54px;
+  line-height: 100%;
+  text-transform: capitalize;
+  color: #000000;
+}
+.section_5 .left_half .text_box p {
+  font-family: "Arial";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 120%;
+  text-transform: capitalize;
+  color: #000000;
+}
+.section_5 .left_half .reasons {
+  width: 490px;
+  height: 203px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+.section_5 .left_half .reasons {
+  margin-top: 35px;
+}
+.section_5 .left_half .reasons .first_reason,
+.second_reason,
+.third_reason {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin-top: 17px;
+}
+.section_5 .left_half .reasons p {
+  margin-left: 10px;
+}
+.section_5 .left_half .reasons span {
+  font-family: "Arial";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+
+  text-transform: capitalize;
+  color: #1a1a1a;
+}
+@keyframes change-opacity {
+  from {
+    position: relative;
+    top: 50px;
+    opacity: 0;
+  }
+  to {
+    position: relative;
+    top: 0px;
+    opacity: 1;
+  }
 }

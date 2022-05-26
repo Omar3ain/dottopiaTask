@@ -1,0 +1,118 @@
+footer {
+  width: 100%;
+  height: 411px;
+  background: #f9f9f9;
+  position: relative;
+  top: -128px;
+
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.main_area {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.main_area .logo_area img {
+  position: relative;
+  right: 20px;
+}
+.main_area .logo_area .text_box {
+  width: 296px;
+  height: 104px;
+  position: relative;
+  bottom: 20px;
+}
+.main_area .logo_area .text_box p {
+  font-family: "Arial";
+  font-style: normal;
+  font-size: 14px;
+  line-height: 115%;
+  text-transform: capitalize;
+  color: #000000;
+}
+.main_area .logo_area .text_box p span {
+  font-family: "Arial";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 115%;
+  text-transform: capitalize;
+  color: #000000;
+  line-height: 40px;
+}
+.main_area .text_area_1 {
+  width: 160px;
+  height: 121px;
+  margin: 0 93px 0 74px;
+}
+.main_area .text_area_2 {
+  width: 117px;
+  height: 70px;
+  margin: 0 72px 0 0;
+}
+.main_area .text_area_3 {
+  width: 152px;
+  height: 58px;
+  margin: 0 72px 0 0;
+}
+.main_area .text_area_1 a,
+.main_area .text_area_2 a,
+.main_area .text_area_3 a {
+  font-family: "Arial";
+  font-style: normal;
+  font-size: 12px;
+  line-height: 80%;
+  text-transform: capitalize;
+  color: #000000;
+  text-decoration: none;
+  padding-top: -50px;
+  cursor: pointer;
+}
+.main_area .text_area_1 span,
+.main_area .text_area_2 span,
+.main_area .text_area_3 span {
+  font-family: "Arial";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 115%;
+  text-transform: capitalize;
+  color: #000000;
+}
+.main_area .social_accounts {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  top: 50px;
+  left: 25px;
+}
+.main_area .social_accounts .links img {
+  cursor: pointer;
+}
+.main_area .social_accounts p {
+  font-family: "Arial";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 115%;
+  text-transform: capitalize;
+  color: #000000;
+  margin-bottom: 10px;
+}
+footer p {
+  font-family: "Arial";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 115%;
+  text-align: center;
+  text-transform: capitalize;
+  color: #000000;
+}

@@ -6,13 +6,19 @@ import { AppComponent } from './app.component';
 import { NavBarComponent } from './nav-bar/nav-bar.component';
 import { GetAProposalComponent } from './get-a-proposal/get-a-proposal.component';
 import { ServiceSectionComponent } from './service-section/service-section.component';
+import { CaseStudiesComponent } from './case-studies/case-studies.component';
+import { ContactComponent } from './contact/contact.component';
+import { FooterComponent } from './footer/footer.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     NavBarComponent,
     GetAProposalComponent,
-    ServiceSectionComponent
+    ServiceSectionComponent,
+    CaseStudiesComponent,
+    ContactComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
