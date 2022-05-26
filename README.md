@@ -1,6 +1,19 @@
-TO RUN THE APP:
-Type in the terminal : "npm i"
-Then type in the terminal: "ng serve" OR "npm start"
+1.  TO RUN THE APP:
+
+
+
+
+
+
+
+
+Type in the terminal : "npm i";
+
+
+
+
+
+Then type in the terminal: "ng serve" OR "npm start";
 
 
 
