@@ -4,6 +4,8 @@
 
 
 
+cd to "dottopia_app" folder;
+
 
 
 
